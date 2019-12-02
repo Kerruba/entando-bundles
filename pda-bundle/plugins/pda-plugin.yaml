@@ -3,10 +3,10 @@ apiVersion: "entando.org/v1alpha1"
 metadata:
   name: "pda-plugin"
 spec:
-  image: entando/entando-process-driven-plugin
-  replicas: 1
+  image: "entando/entando-process-driven-plugin"
+  replicas: "1"
   dbms: "postgresql"
-  roles: 
+  roles:
     - name: "task-list"
       code: "task-list"
     - name: "task-get"
